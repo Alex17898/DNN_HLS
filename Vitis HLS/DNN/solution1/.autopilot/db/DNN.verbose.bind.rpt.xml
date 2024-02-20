@@ -1,0 +1,66 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'DNN'" level="0">
+<item name = "Date">Fri Jun  2 02:54:16 2023
+</item>
+<item name = "Version">2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)</item>
+<item name = "Project">DNN</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">30.00 ns, 21.295 ns, 8.10 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">753, 753, 22.590 us, 22.590 us, 754, 754, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_DNN_Pipeline_1_fu_729">DNN_Pipeline_1, 66, 66, 1.980 us, 1.980 us, 66, 66, no</column>
+<column name="grp_DNN_Pipeline_2_fu_735">DNN_Pipeline_2, 18, 18, 0.540 us, 0.540 us, 18, 18, no</column>
+<column name="grp_DNN_Pipeline_3_fu_741">DNN_Pipeline_3, 66, 66, 1.980 us, 1.980 us, 66, 66, no</column>
+<column name="grp_DNN_Pipeline_4_fu_747">DNN_Pipeline_4, 18, 18, 0.540 us, 0.540 us, 18, 18, no</column>
+<column name="grp_DNN_Pipeline_5_fu_753">DNN_Pipeline_5, 18, 18, 0.540 us, 0.540 us, 18, 18, no</column>
+<column name="grp_DNN_Pipeline_6_fu_759">DNN_Pipeline_6, 14, 14, 0.420 us, 0.420 us, 14, 14, no</column>
+<column name="grp_DNN_Pipeline_7_fu_765">DNN_Pipeline_7, 12, 12, 0.360 us, 0.360 us, 12, 12, no</column>
+<column name="grp_DNN_Pipeline_8_fu_771">DNN_Pipeline_8, 12, 12, 0.360 us, 0.360 us, 12, 12, no</column>
+<column name="grp_DNN_Pipeline_9_fu_777">DNN_Pipeline_9, 102, 102, 3.060 us, 3.060 us, 102, 102, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_18_1_VITIS_LOOP_19_2_fu_783">DNN_Pipeline_VITIS_LOOP_18_1_VITIS_LOOP_19_2, 102, 102, 3.060 us, 3.060 us, 102, 102, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_24_3_VITIS_LOOP_25_4_fu_790">DNN_Pipeline_VITIS_LOOP_24_3_VITIS_LOOP_25_4, 96, 96, 2.880 us, 2.880 us, 96, 96, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_61_2_fu_796">DNN_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_61_2, 24, 24, 0.720 us, 0.720 us, 24, 24, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802">DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3, 96, 96, 2.880 us, 2.880 us, 96, 96, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_78_1_fu_826">DNN_Pipeline_VITIS_LOOP_78_1, 24, 24, 0.720 us, 0.720 us, 24, 24, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_117_1_fu_832">DNN_Pipeline_VITIS_LOOP_117_1, 18, 18, 0.540 us, 0.540 us, 18, 18, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_126_4_fu_838">DNN_Pipeline_VITIS_LOOP_126_4, 69, 69, 2.070 us, 2.070 us, 69, 69, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_135_6_fu_893">DNN_Pipeline_VITIS_LOOP_135_6, 65, 65, 1.950 us, 1.950 us, 65, 65, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_143_8_fu_948">DNN_Pipeline_VITIS_LOOP_143_8, 54, 54, 1.620 us, 1.620 us, 54, 54, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_150_10_fu_991">DNN_Pipeline_VITIS_LOOP_150_10, 23, 23, 0.690 us, 0.690 us, 23, 23, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_153_11_fu_997">DNN_Pipeline_VITIS_LOOP_153_11, 18, 18, 0.540 us, 0.540 us, 18, 18, no</column>
+<column name="grp_DNN_Pipeline_VITIS_LOOP_158_12_fu_1004">DNN_Pipeline_VITIS_LOOP_158_12, 13, 13, 0.390 us, 0.390 us, 13, 13, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

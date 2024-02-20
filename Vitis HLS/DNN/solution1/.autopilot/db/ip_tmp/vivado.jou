@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun  2 16:38:40 2023
+# Process ID: 9552
+# Current directory: D:/hls/C++/test/DNN/solution1/.autopilot/db/ip_tmp
+# Command line: vivado.exe -notrace -log vivado.log -mode batch -source run_vivado_gen_ip.tcl
+# Log file: D:/hls/C++/test/DNN/solution1/.autopilot/db/ip_tmp/vivado.log
+# Journal file: D:/hls/C++/test/DNN/solution1/.autopilot/db/ip_tmp\vivado.jou
+#-----------------------------------------------------------
+source run_vivado_gen_ip.tcl -notrace

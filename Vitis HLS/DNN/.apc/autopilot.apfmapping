@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="DNN.cpp" path="D:\hls\C++\test\DNN.cpp"/>
+    <originFiles name="DNN.hpp" path="D:\hls\C++\test\DNN.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="DNN_tb.cpp" path="D:\hls\C++\test\DNN_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

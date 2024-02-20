@@ -1,0 +1,17 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_153_11_fu_997/fdiv_32ns_32ns_32_7_no_dsp_1_U264/DNN_fdiv_32ns_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[6].ADDSUB/ADDSUB/Q_DEL/i_pipe/opt_has_pipe.first_q_reg[5]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_153_11_fu_997/fdiv_32ns_32ns_32_7_no_dsp_1_U264/DNN_fdiv_32ns_32ns_32_7_no_dsp_1_ip_u/inst/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[6].ADDSUB/ADDSUB/Q_DEL/i_pipe/opt_has_pipe.first_q_reg[7]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                 design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_143_8_fu_948/sum_11_9_reg_763_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802/sum_6_2_1_reg_1215_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                 design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_143_8_fu_948/sum_11_s_reg_783_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802/sum_6_2_2_reg_1220_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802/sum_6_2_reg_1210_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_126_4_fu_838/sum_5_14_reg_1082_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_135_6_fu_893/sum_9_10_reg_1012_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_135_6_fu_893/sum_9_13_reg_1072_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |                design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_135_6_fu_893/sum_9_11_reg_1032_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802/sum_6_0_2_reg_1190_reg[31]/D|
+|               clk_fpga_0 |               clk_fpga_0 |design_1_i/DNN_0/inst/grp_DNN_Pipeline_VITIS_LOOP_41_1_VITIS_LOOP_42_2_VITIS_LOOP_43_3_fu_802/sum_6_1_reg_1195_reg[31]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

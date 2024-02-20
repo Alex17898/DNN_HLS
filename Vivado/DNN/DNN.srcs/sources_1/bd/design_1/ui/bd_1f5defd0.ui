@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.806473",
+   "Default View_TopLeft":"103,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1560 -y 280 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1560 -y 300 -defaultsOSRD
+preplace port port-id_led_ctrl1_0 -pg 1 -lvl 5 -x 1560 -y 400 -defaultsOSRD
+preplace port port-id_led_ctrl2_0 -pg 1 -lvl 5 -x 1560 -y 420 -defaultsOSRD
+preplace port port-id_led_ctrl3_0 -pg 1 -lvl 5 -x 1560 -y 440 -defaultsOSRD
+preplace port port-id_led_ctrl4_0 -pg 1 -lvl 5 -x 1560 -y 460 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 190 -y 320 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 980 -y 120 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -x 1360 -y 200 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 590 -y 100 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 190 -y 140 -defaultsOSRD
+preplace inst DNN_0 -pg 1 -lvl 3 -x 980 -y 430 -defaultsOSRD
+preplace inst not_gate_0 -pg 1 -lvl 2 -x 590 -y 360 -defaultsOSRD
+preplace inst nn_ctrl_0 -pg 1 -lvl 4 -x 1360 -y 550 -defaultsOSRD
+preplace inst fix_address_0 -pg 1 -lvl 2 -x 590 -y 220 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -20 30 420 280 750J 200 1190
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 -10 40 390
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 400 10 740J
+preplace netloc DNN_0_ap_ready 1 2 2 800 570 1190J
+preplace netloc DNN_0_ap_done 1 2 2 790 560 1200J
+preplace netloc DNN_0_ap_idle 1 2 2 770 590 1220J
+preplace netloc nn_ctrl_0_ap_start 1 2 3 760 580 1180J 440 1490
+preplace netloc nn_ctrl_0_led_ctrl1 1 4 1 1510 400n
+preplace netloc nn_ctrl_0_led_ctrl2 1 4 1 1520 420n
+preplace netloc nn_ctrl_0_led_ctrl3 1 4 1 1530 440n
+preplace netloc nn_ctrl_0_led_ctrl4 1 4 1 1540 460n
+preplace netloc DNN_0_ap_return 1 3 1 1170 430n
+preplace netloc DNN_0_input_r_address0 1 1 3 440 610 NJ 610 1160
+preplace netloc fix_address_0_addr_out 1 2 2 730 40 1190J
+preplace netloc nn_ctrl_0_ap_rst 1 1 4 450 600 NJ 600 1210J 430 1500
+preplace netloc not_gate_0_o_out 1 2 1 740 360n
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 2 2 780 220 NJ
+preplace netloc DNN_0_input_r_ce0 1 3 1 1170 240n
+preplace netloc axi_bram_ctrl_0_bram_rstb_busy 1 3 2 1230 50 1490
+preplace netloc processing_system7_0_DDR 1 1 4 410J 20 NJ 20 NJ 20 1520J
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 300 NJ 300 1160J 60 1510J
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 NJ 120
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 430 80n
+preplace netloc axi_smc_M00_AXI 1 2 1 N 100
+levelinfo -pg 1 -40 190 590 980 1360 1560
+pagesize -pg 1 -db -bbox -sgen -40 0 1680 660
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_bram_cntlr_cnt":"2",
+   "da_ps7_cnt":"1"
+}
